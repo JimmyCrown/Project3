@@ -58,7 +58,7 @@ watch(recipe, (newVal) => {
         <input type="text" placeholder="e.g., Tomatoes" v-model="newIngredient" />
 
         <h4>Add Directions</h4>
-        <input type="text" placeholder="e.g., Blend the tomatoes finely" v-model="newDirection" />
+        <input type="text" placeholder="e.g., Blend the tomatoes" v-model="newDirection" />
 
         <input type="submit" value="Add to Recipe" />
       </form>
